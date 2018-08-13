@@ -1,3 +1,16 @@
+# SCSS etc
+.sass-cache
+node_modules
+.DS_Store
+*.css.map
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+*.log
+
 # Logs
 logs
 *.log
@@ -59,3 +72,4 @@ typings/
 
 # next.js build output
 .next
+
