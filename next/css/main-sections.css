@@ -2388,6 +2388,7 @@ footer .row {
 .dark-bg {
     color: #fff;
 }
+
 .col-full.only {
     margin-bottom: 0;
     padding-bottom: 0;
@@ -2395,6 +2396,9 @@ footer .row {
 #intro .section-header h2 .subhead {
     display: block;
     margin-top: -2rem;
+}
+#home .home-actions .btn {
+    font-size: 1.6rem
 }
 .about-desc p:last-child {
     margin-bottom: 0;
@@ -2439,4 +2443,13 @@ a.sliding-link:hover::after {
     transition: 0.3s ease all;
 }
 
-/*# sourceMappingURL=main.css.map */
+a.darkest {
+    font-size: 2rem;
+    color: #474747;
+}
+a.darkest:hover, a.darkest:active, a.darkest:focus {
+    color: #111;
+}
+a.footer-link:hover, a.footer-link:active, a.footer-link:focus {
+    color: #010507
+}

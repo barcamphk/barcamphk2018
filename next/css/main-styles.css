@@ -1279,3 +1279,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .narrow {
     max-width: 800px;
 }
+
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+}
