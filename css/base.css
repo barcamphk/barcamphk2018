@@ -472,7 +472,7 @@ textarea {
 
 .col-two,
 .col-1-6 {
-    width: 16.66667%;
+    width: 44.66667%;
 }
 
 .col-three,
@@ -495,7 +495,7 @@ textarea {
 }
 
 .col-seven {
-    width: 58.33333%;
+    width: 30%;
 }
 
 .col-eight,
@@ -923,5 +923,9 @@ textarea {
     text-align: center;
 }
 
+.sponsor-logo{
+    float: left;
+    margin-right: 10px;
+}
 
 /*# sourceMappingURL=base.css.map */
