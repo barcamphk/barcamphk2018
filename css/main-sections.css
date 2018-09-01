@@ -2383,8 +2383,10 @@ footer .row {
     }
 }
 
-/* Patch */
 
+/* ---------
+ * Patch
+ * --------- */
 .dark-bg {
     color: #fff;
 }
@@ -2409,7 +2411,17 @@ footer .row {
 #organizers ul li {
     display: block;
 }
-
+#organizers .logo {
+    margin-right: 3rem;
+    vertical-align: top;
+}
+#organizers .logo.last {
+    margin-right: 0;
+}
+#organizers .logo.vertical img {
+    max-height: 140px;
+}
+/* Source: https://codepen.io/srirachachacha/pen/pNyQoY */
 /*--- Red Box (box-e) ---*/
 a.sliding-link {
   position: relative;
