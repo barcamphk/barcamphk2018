@@ -2421,6 +2421,9 @@ footer .row {
 #organizers .logo.vertical img {
     max-height: 140px;
 }
+#organizers .logo.horizontal img {
+    max-width: 180px;
+}
 /* Source: https://codepen.io/srirachachacha/pen/pNyQoY */
 /*--- Red Box (box-e) ---*/
 a.sliding-link {
